@@ -28,10 +28,7 @@ const Home = ({ navigation }) => {
     getNewsFromAPI();
   }, []);
 
-  /* const newsResponse = async() => {
-      const response = await newAPI.get('everything?q=tesla&from=2021-07-19&sortBy=publishedAt&apiKey=3e76e471a95d4374b3ac14ff2a558aec')
-      console.log(response.data)
-  } */
+ 
 
   function getNewsFromAPI() {
     newAPI
@@ -95,21 +92,13 @@ const Home = ({ navigation }) => {
         style={{
           backgroundColor: theme.headerColor,
           flexDirection: "row",
-          justifyContent: "space-between",
-          elevation: 8,
+          justifyContent: "center",
+          alignItems: "center",
+          // elevation: 8,
         }}
       >
-        <Image
-          source={require("../assets/img/header-logo.png")}
-          style={{
-            width: 65,
-            height: 65,
-            alignSelf: "flex-start",
-            paddingLeft: 10,
-            marginLeft: 10,
-          }}
-        />
-        <Text style={styles.mainText}>The News Hunt</Text>
+      
+        <Text style={styles.mainText}>News Hunt</Text>
       </View>
       <ScrollView>
         <View>

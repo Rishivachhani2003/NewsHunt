@@ -22,11 +22,6 @@ const Health = ({ navigation }) => {
     getNewsFromAPI();
   }, []);
 
-  /* const newsResponse = async() => {
-        const response = await newAPI.get('everything?q=tesla&from=2021-07-19&sortBy=publishedAt&apiKey=3e76e471a95d4374b3ac14ff2a558aec')
-        console.log(response.data)
-    } */
-
   function getNewsFromAPI() {
     newAPI
       .get(

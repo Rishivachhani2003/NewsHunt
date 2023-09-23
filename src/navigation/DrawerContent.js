@@ -25,23 +25,20 @@ export default function CustomDrawerContent(props) {
           marginBottom: 10,
         }}
       >
-        <Image
-          source={require("../assets/img/header-logo.png")}
-          style={{
-            width: 50,
-            height: 50,
-            backgroundColor: theme.headerColor,
-          }}
-        />
         <Text
           style={{
             color: "white",
             fontSize: 20,
+            width: 100,
+            paddingTop: 30,
+
+            paddingBottom: 30,
+            height: 80,
             fontWeight: "bold",
             alignItems: "center",
           }}
         >
-          The News Hunt
+          News
         </Text>
       </View>
 
