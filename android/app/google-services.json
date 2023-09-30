@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "351688131517",
+    "project_id": "newshunt-beff0",
+    "storage_bucket": "newshunt-beff0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351688131517:android:8052208551c0f87aa508d4",
+        "android_client_info": {
+          "package_name": "com.newshunt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQat2xXvHaiGRbA41UuXsL6d2qJUc2mx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
